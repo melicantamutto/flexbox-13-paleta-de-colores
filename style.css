@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+}
+body{
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8ebf3;
+}
+main{
+    height: 80vh;
+    width: 70%;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.notificacion{
+    background-color: #16182a;
+    color: #fff;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+span{
+    font-weight: 700;
+}
+header{
+    margin:0;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    box-sizing: border-box;
+}
+.card{
+    margin: 0 15px;
+    background-color: #fff;
+    height: 230px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.05);
+}
+.card>p{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #4d505f;
+}
+.color{
+    flex-grow: 1;
+    border-radius: 10px;
+}
+.gris-claro{
+    background-color: #a1b5c1;
+}
+.rosa-claro{
+    background-color: #f9aca7;
+}
+.gris-oscuro{
+    background-color: #68747d;
+}
+.rosa-oscuro{
+    background-color: #cf365f;
+}
+.generate{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+button{
+    color:#fff;
+    background-color: #816ac9;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 100px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+footer, .generate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer>p{
+    background-color: #fff;
+    border-radius: 100px;
+    color: #4d505f;
+    padding: 10px 20px;
+    font-size: 13px;
+}
+.card:hover{
+    box-shadow: 0px 4px 12px 0px rgba(0,0,0,0.35);
+    color: #000;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
